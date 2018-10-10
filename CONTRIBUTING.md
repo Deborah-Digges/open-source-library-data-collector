@@ -100,7 +100,7 @@ Next, update your environment with your [SENDGRID_API_KEY](https://app.sendgrid.
 
 ```bash
 echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
-echo "sendgrid.env" >> .gitignore
+echo -e "\nsendgrid.env" >> .gitignore
 source ./sendgrid.env
 ```
 
