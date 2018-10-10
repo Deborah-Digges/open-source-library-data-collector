@@ -11,7 +11,7 @@ PyYAML==3.12
 requests==2.12.1
 sendgrid==3.6.3
 six==1.10.0
-SQLAlchemy==1.1.4
+SQLAlchemy==1.2.9
 tox==2.5.0
 uritemplate.py==3.0.2
 virtualenv==15.1.0
