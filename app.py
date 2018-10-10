@@ -21,7 +21,7 @@ def update(send_email=True):
     # Export tables as CSV if config file indicates to do so
     if config.export_github:
         db.export_table_to_csv(GitHubData)
-    if config['export_tables']['PackageManagers']:
+    if config.export_package_managers:
         db.export_table_to_csv(PackageManagerData)
     
     if not send_email:
